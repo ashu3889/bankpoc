@@ -1,0 +1,59 @@
+.card {
+  display:inline-block;
+  text-align:center;
+  margin:5px;
+  padding:18px 15px 0 15px;
+  width:80px;
+  height:80px;
+  
+  font-size:22px;
+  background-color:#999999;
+  border: solid 1px black;
+}
+
+.red {
+  background-color:#E55451;
+  border: solid 1px #8C001A;
+  color:#8C001A;
+}
+
+.template {
+
+}
+
+#closebutton {
+    line-height: 12px;
+    width: 18px;
+    font-size: 16pt;
+    font-family: tahoma;
+ margin-left: -20px;
+ background-color: white;
+ margin-top: -12px;
+}
+
+.clubs{
+  background : lightgreen;
+}
+
+.Spades{
+  background : lightyellow;
+}
+.Hearts{
+  background : lightblue;
+}
+
+
+
+.Diamonmds{
+  background : lightcoral;
+}
+
+.sortcard{
+
+  margin-left : 30px;
+  margin-top : 50px;
+}
+
+.shufflecard{
+  margin-top : 50px;
+}
