@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {createStore} from 'redux';
-import CounterBody from './component/counterbody.js';
+
+import Container from './containers/Container.js';
 import { Provider } from "react-redux";
 import Store from './reducer/combo_reducer.js';
 
@@ -11,7 +12,7 @@ class App extends Component {
     return (
       <div className="App"> 
       <Provider store={Store}>
-         <CounterBody/>
+         <Container/>
       </Provider>     
        
       </div>
@@ -19,4 +20,4 @@ class App extends Component {
   }
 }
 
-export default App;
+ export default App;

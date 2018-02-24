@@ -3,12 +3,16 @@
   text-align:center;
   margin:5px;
   padding:18px 15px 0 15px;
-  width:80px;
-  height:80px;
+  width:70px;
+  height:70px;
   
   font-size:22px;
   background-color:#999999;
   border: solid 1px black;
+}
+.selecticon{
+    margin-top: -14px;
+    float: left;
 }
 
 .red {
@@ -24,7 +28,7 @@
 #closebutton {
     line-height: 12px;
     width: 18px;
-    font-size: 16pt;
+    font-size: 8pt;
     font-family: tahoma;
  margin-left: -20px;
  background-color: white;
@@ -42,15 +46,15 @@
   background : lightblue;
 }
 
-
+.carddeck{
+  min-height : 450px;
+}
 
 .Diamonmds{
   background : lightcoral;
 }
 
-.sortcard{
-
-  margin-left : 30px;
+.sortcard{  
   margin-top : 50px;
 }
 
